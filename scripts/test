@@ -1,0 +1,8 @@
+clear
+make re
+gcc main.c \
+    src/malloc.c \
+    src/lib/my_putstr.c \
+    src/lib/my_put_nbr.c \
+    src/MemoryGestion/memory.c \
+    src/MemoryGestion/dataBlock.c -I./include && clear && ./a.out

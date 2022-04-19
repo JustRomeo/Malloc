@@ -1,0 +1,5 @@
+clear
+make -C /home/romeo/PSU_2019_malloc/
+clear
+export LD_PRELOAD=/home/romeo/PSU_2019_malloc/libmy_malloc.so
+# env | grep LD_PRELOAD
